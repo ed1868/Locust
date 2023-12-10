@@ -11,3 +11,4 @@ class WebsiteUser(HttpUser):
     @task
     def slow_page(self):
         self.client.get(url='/slow')
+
